@@ -1,0 +1,37 @@
+<h1>2020 National Elections</h1>
+<h2>(as seen in the Washington Post)</h2>
+<form action="election" method="POST">
+<table>
+  <tr>
+    <label for="popular">Popular Vote</label>
+    <select name="popular" id="popular" value="popular">
+      <option value="-1">Democrat</option>
+      <option value="1">Republican</option>
+      <option value="1">tie</option>
+    </select>
+    <label for="electoral">Electoral College</label>
+    <select name="electoral" id="electoral" value="electoral">
+      <option value="-1">Democrat</option>
+      <option value="1">Republican</option>
+      <option value="1">tie</option>
+    </select>
+    <label for="senate">Senate</label>
+    <select name="senate" id="senate" value="senate">
+      <option value="-1">Democrat</option>
+      <option value="1">Republican</option>
+      <option value="1">tie</option>
+    </select>
+    <label for="house">House of Representatives</label>
+    <select name="house" id="house" value="house">
+      <option value="-1">Democrat</option>
+      <option value="1">Republican</option>
+      <option value="1">tie</option>
+    </select>
+  </tr>
+
+</table>
+<button type="submit">Submit for Simulating</button>
+</form>
+<a href='/'>Back</a>
+
+<%- include("partials/bottom") -%>
